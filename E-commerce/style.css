@@ -1,0 +1,73 @@
+
+.navbar{
+    background-color:#D32F2F !important;
+}
+.nav-link{
+    color: #fff !important;
+ font-weight: bold !important;
+}
+h2{
+    color: #fff !important;
+    font-style: italic !important;
+}
+.fa-shopping-cart,.fa-user-circle-o{
+font-size: 32px !important;
+
+}
+
+.card1,.card2, .card3 {
+display: flex;
+width: 300px;
+height: 100px;
+background-color: #fff !important;
+box-shadow: 2px 4px 5px grey !important;
+justify-content: center;
+align-items: center;
+margin-top: 10px;
+}
+.fa-truck, .fa-headphones,.fa-heart{
+font-size: 50px !important;
+margin-right: 10px;
+color: #D32F2F !important;
+}
+h3{
+    color: #D32F2F !important;
+}
+.main{
+    margin-top: 30px;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+@media   screen  and (max-width: 600px){
+    .card {
+       margin-left: 50px !important; 
+    }
+}
+.newArrivals{
+margin-top: 50px;
+}
+.card{
+    height: auto !important;
+    width: 250px !important;
+    margin-top: 10px;
+}
+.card-text{
+    font-weight: bold !important; 
+
+}
+.btn-primary{
+    width: 100%;
+    background-color:#D32F2F !important ;
+}
+.headings{
+    text-align: center;
+    font-weight: bold;
+    color: #D32F2F !important;
+    margin: 20px;
+    text-shadow: 2px 2px 4px grey !important;
+    font-style: italic !important;
+
+}
